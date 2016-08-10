@@ -36,7 +36,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//test
 
 public class MainActivity extends AppCompatActivity implements FragmentOne.OnHeadlineSelectedListener, FragmentTwo.OnHeadlineSelectedListener {
     private final String url1 = "http://smkbaig.esy.es/receptai_gauti.php";
