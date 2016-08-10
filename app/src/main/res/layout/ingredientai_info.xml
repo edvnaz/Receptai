@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/devide_one"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="19sp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- I N G R E D I E N T U   L E N E T E L E -->
+    <LinearLayout
+        android:id="@+id/ingred_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- 1 puse -->
+        <LinearLayout
+            android:id="@+id/ingred_table_pav"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Y R A -->
+            <TextView
+                android:id="@+id/ingred_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="11sp"
+                android:text="@string/ingredientai_yes"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <!-- S A R A S A S -->
+            <com.baigiamasis.ed.app.NonScrollListView
+                android:id="@+id/ingred_yra_nonListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--
+            <ListView
+                android:id="@+id/ingred_yra_listView"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:divider="@null" />
+                -->
+        </LinearLayout>
+
+        <!-- 2 puse -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- T R U K S T A -->
+            <TextView
+                android:id="@+id/ingred_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="11sp"
+                android:layout_marginLeft="0sp"
+                android:text="@string/ingredientai_no"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <!-- S A R A S A S -->
+            <com.baigiamasis.ed.app.NonScrollListView
+                android:id="@+id/ingred_nera_nonListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--
+            <ListView
+                android:id="@+id/ingred_nera_listView"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:divider="@null" />
+                -->
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/devide_two"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ingred_table"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="11sp"
+        android:background="@android:color/darker_gray" />
+    <!-- A P R A S Y M A S -->
+    <TextView
+        android:id="@+id/aprasymas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/devide_two"
+        android:layout_margin="10sp"
+        android:text="aprasymas"
+        android:textStyle="italic" />
+
+</RelativeLayout>

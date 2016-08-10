@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blank_search_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/butt1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_raudona"
+        android:padding="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/mesa" />
+
+    <ImageButton
+        android:id="@+id/butt2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/butt1"
+        android:background="@drawable/button_zalia"
+        android:padding="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/morka" />
+
+    <ImageButton
+        android:id="@+id/butt3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/butt2"
+        android:background="@drawable/button_orandzine"
+        android:padding="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/obuolys" />
+
+    <ImageButton
+        android:id="@+id/butt4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/butt1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_ruda"
+        android:padding="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/duona" />
+
+    <ImageButton
+        android:id="@+id/butt5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/butt2"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/butt4"
+        android:background="@drawable/button_pilka"
+        android:padding="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/pienas" />
+
+    <ImageButton
+        android:id="@+id/butt6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/butt3"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/butt5"
+        android:background="@drawable/button_prieskoniai"
+        android:padding="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/logo_2" />
+
+    <Button
+        android:id="@+id/butt7"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/butt4"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_kiti"
+        android:padding="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="K I T I"
+        android:textColor="#fff"
+        android:textSize="50dp" />
+    <!--
+    <GridView
+        android:id="@+id/blank_search_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:numColumns="3" /> -->
+</RelativeLayout>

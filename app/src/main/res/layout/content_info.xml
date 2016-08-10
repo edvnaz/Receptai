@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50sp"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/receptoImg"
+            android:layout_width="wrap_content"
+            android:layout_height="180sp"
+            android:maxWidth="300sp"
+            android:minWidth="180sp"
+            android:src="@drawable/logo_2" />
+
+        <include
+            android:id="@+id/ingred_table"
+            layout="@layout/ingredientai_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/receptoImg" />
+    </RelativeLayout>
+</ScrollView>
